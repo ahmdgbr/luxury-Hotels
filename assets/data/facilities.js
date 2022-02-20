@@ -9,7 +9,7 @@ const facilities = [
   },
   {
     title: "the spa",
-    img: "../../assets/imgs/facitities/spa.jfif",
+    img: "../../assets/imgs/facitities/spa.jpg",
   },
   {
     title: "swimming pool",
@@ -31,7 +31,7 @@ facilities.forEach((card) => {
   const cardEl = document.createElement("div");
   cardEl.classList.add("card");
   cardEl.innerHTML = `
-          <img src="${card.img}" alt="img">
+          <img src="${card.img}" alt="${card-title} picture">
           <h1>${card.title}</h1>
   `;
   cards.appendChild(cardEl);
