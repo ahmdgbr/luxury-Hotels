@@ -32,7 +32,7 @@ facilities.forEach((card) => {
   cardEl.classList.add("card");
   cardEl.innerHTML = `
           <img src="${card.img}" alt="img">
-          <h1>the gym</h1>
+          <h1>${card.title}</h1>
   `;
   cards.appendChild(cardEl);
 });
