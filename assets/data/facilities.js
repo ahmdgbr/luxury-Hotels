@@ -31,7 +31,7 @@ facilities.forEach((card) => {
   const cardEl = document.createElement("div");
   cardEl.classList.add("card");
   cardEl.innerHTML = `
-          <img src="${card.img}" alt="${card-title} picture">
+          <img src="${card.img}" alt="${card.title} picture">
           <h1>${card.title}</h1>
   `;
   cards.appendChild(cardEl);
