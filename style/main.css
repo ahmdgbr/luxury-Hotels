@@ -9,7 +9,7 @@
   --overlay: rgba(20, 39, 74, 0.5);
   --white: #FFFFFF;
   --gray: #E5E5E5;
-  --trans: 0.5s linear;
+  --trans: 0.3s linear;
   --decol: "Kaisei Decol", serif;
   --poppins: "Poppins", sans-serif;
 }
@@ -19,9 +19,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+html{
   scroll-behavior: smooth;
+}
+body {
   background-color: var(--gray);
 }
 
